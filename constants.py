@@ -13,5 +13,5 @@ RUN_OFF_RATE[:,4] = numpy.array([.1918, .1338, .1112,.0853, .0862, .1094, .2824]
 RUN_OFF_RATE[:,6] = numpy.array([.1918, .1338, .1112,.0853, .0862, .1094, .2824])#7yr
 RUN_OFF_RATE[:,9] = numpy.array([.1918, .1338, .1112,.0853, .0862, .1094, .2824])#10yr
 
-FIELD_NAMES = ['num', 'auth_date_num' 'mat_date_num', 'term', 'amort', 'curr_bal', 'rate','float_ind'
-			   ,'mat_date_Y', 'mat_date_M', 'mat_date_D', 'TTM', 'amort_bucket', 'term_bucket', 'TTM_bucket']
+FIELD_NAMES = ['num', 'auth_date_num', 'mat_date_num', 'term', 'amort', 'curr_bal', 'rate', 'float_ind']
+			   #,'mat_date_Y', 'mat_date_M', 'mat_date_D', 'TTM', 'amort_bucket', 'term_bucket', 'TTM_bucket']
